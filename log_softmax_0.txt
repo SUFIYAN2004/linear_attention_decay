@@ -1,0 +1,25 @@
+softmax seed=0 params=53,781,120
+step 0/915 loss 9.811 0.0 min
+step 50/915 loss 6.723 1.9 min
+step 100/915 loss 6.102 3.7 min
+step 150/915 loss 5.848 5.6 min
+  val (200, 5.621807098388672)
+step 200/915 loss 5.643 7.5 min
+step 250/915 loss 5.526 9.3 min
+step 300/915 loss 5.348 11.2 min
+step 350/915 loss 5.160 13.1 min
+  val (400, 4.9923858642578125)
+step 400/915 loss 4.979 15.0 min
+step 450/915 loss 4.804 16.8 min
+step 500/915 loss 4.832 18.7 min
+step 550/915 loss 4.662 20.5 min
+  val (600, 4.599374294281006)
+step 600/915 loss 4.583 22.4 min
+step 650/915 loss 4.574 24.3 min
+step 700/915 loss 4.583 26.1 min
+step 750/915 loss 4.516 28.0 min
+  val (800, 4.408279895782471)
+step 800/915 loss 4.430 29.9 min
+step 850/915 loss 4.387 31.8 min
+step 900/915 loss 4.409 33.6 min
+{'mixer': 'softmax', 'seed': 0, 'params': 53781120, 'steps': 915, 'nan': False, 'val_loss': 4.349544525146484, 'ppl': 77.44318389892578, 'l_early': 4.486429214477539, 'l_mid': 4.327538967132568, 'l_late': 4.331827163696289, 'tok_per_s': 29233.872613610554, 'mem_gb': 5.047023616, 'curve': [(200, 5.621807098388672), (400, 4.9923858642578125), (600, 4.599374294281006), (800, 4.408279895782471)], 'decay': [], 'reset_strength': []}
